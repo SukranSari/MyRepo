@@ -18,6 +18,14 @@ export default function ProjectCard({ project }) {
   );
 }
 
-const CardContainer = styled.div``;
+const CardContainer = styled.div`
+  display: flex;
+  margin: 1rem 1rem;
+  gap: 1rem;
+`;
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
